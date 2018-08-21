@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pockemons in pices</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="icon" href="favico.gif" type="image/gif">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<audio id="myAudio" controls autoplay loop>
+    <source src="audio/ambient-loop-piano.ogg" type="audio/ogg">
+    <source src="audio/ambient-loop-piano.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<body>
+
+<div class="content">
+    <div class="content-image">
+    </div>
+</div>
+<main>
+
+    <div class="container">
+        <div class="svg">
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/picatchu.svg" alt="Picatchu" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/charizard.svg" alt="Charizard" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/snorlax.svg" alt="Snorlax" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/eevee.svg" alt="Eevee" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/squirtle.svg" alt="Squirtle" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/bulbasaur.svg" alt="Bulbasaur" class="svg-item">
+            </div>
+
+            <div class="mySlides fade svg-item">
+                <img src="svg/jigglypuff.svg" alt="Jigglypuff" class="svg-item">
+            </div>
+
+        </div>
+
+    </div>
+
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+    <a class="button-mute" onclick="mute()"><i class="fas fa-volume-up"></i></a>
+
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
