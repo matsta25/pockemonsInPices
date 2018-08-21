@@ -4,7 +4,7 @@ This is simple slider with pockemons in triangles.
 
 ## Deployment
 
-<b>Check it out :fire:<a href="https://matsta25.github.io/pockemonsInPices/">HERE</a></b>:fire:.
+<b>Check it out :fire:<a href="https://matsta25.github.io/pockemonsInPices/index.html">HERE</a></b>:fire:.
 
 ## Built With
 
